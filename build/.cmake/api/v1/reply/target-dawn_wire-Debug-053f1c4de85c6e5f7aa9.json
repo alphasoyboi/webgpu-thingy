@@ -1,0 +1,731 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/dawn-build/src/dawn/wire/libdawn_wire.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"common_compile_options",
+			"target_compile_definitions",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"build/_deps/dawn-src/src/dawn/wire/CMakeLists.txt",
+			"build/_deps/dawn-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 342,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-deprecated-builtins"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unknown-warning-option"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DAWN_ENABLE_ASSERTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DAWN_ENABLE_BACKEND_METAL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DAWN_WIRE_IMPLEMENTATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build/_deps/dawn-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build/_deps/dawn-build/gen/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build/_deps/dawn-src/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build/_deps/dawn-build/gen/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				9,
+				11,
+				14,
+				15,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				32,
+				33,
+				36,
+				38,
+				40,
+				41,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				57,
+				59,
+				61,
+				64,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "dawn_headers::@8e35327a9a44fb1c9feb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "dawncpp_headers::@8e35327a9a44fb1c9feb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "dawn_common::@2ec0d29f083c906cd78c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "External/Dawn"
+	},
+	"id" : "dawn_wire::@5805845191e9c5707a11",
+	"name" : "dawn_wire",
+	"nameOnDisk" : "libdawn_wire.a",
+	"paths" : 
+	{
+		"build" : "_deps/dawn-build/src/dawn/wire",
+		"source" : "build/_deps/dawn-src/src/dawn/wire"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				9,
+				11,
+				14,
+				15,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				32,
+				33,
+				36,
+				38,
+				40,
+				41,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				57,
+				59,
+				61,
+				64,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				10,
+				13,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				30,
+				31,
+				34,
+				35,
+				37,
+				39,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				56,
+				58,
+				60,
+				62,
+				63,
+				65
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12,
+				16
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				73
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/Placeholder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/include/dawn/wire/Wire.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/include/dawn/wire/WireClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/include/dawn/wire/WireServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/include/dawn/wire/dawn_wire_export.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/ObjectType_autogen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/WireCmd_autogen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/WireCmd_autogen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/client/ApiObjects_autogen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/client/ApiProcs_autogen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/client/ClientBase_autogen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/client/ClientPrototypes_autogen.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/server/ServerBase_autogen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/server/ServerDoers_autogen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/server/ServerPrototypes_autogen.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/BufferConsumer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/BufferConsumer_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ChunkedCommandHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ChunkedCommandHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ChunkedCommandSerializer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ChunkedCommandSerializer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ObjectHandle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/ObjectHandle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/SupportedFeatures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/SupportedFeatures.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/Wire.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/WireClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/WireDeserializeAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/WireDeserializeAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/WireResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/WireServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Adapter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Adapter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ApiObjects.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Buffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Client.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ClientDoers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ClientInlineMemoryTransferService.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Device.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Device.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Instance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Instance.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/LimitsAndFeatures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/LimitsAndFeatures.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ObjectStore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ObjectStore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ObjectBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ObjectBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/QuerySet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/QuerySet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Queue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/RequestTracker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ShaderModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/ShaderModule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/SwapChain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/SwapChain.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/client/Texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ObjectStorage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/Server.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/Server.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerAdapter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerDevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerInlineMemoryTransferService.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerInstance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/server/ServerShaderModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-build/gen/src/dawn/wire/ObjectType_autogen.h.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

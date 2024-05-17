@@ -1,0 +1,2079 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.8/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "vendor/glfw/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "vendor/glfw/src/glfw3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "vendor/glfw/src/glfw_config.h.in"
+		},
+		{
+			"path" : "vendor/glfw/src/glfw3.pc.in"
+		},
+		{
+			"path" : "vendor/glfw/src/CMakeLists.txt"
+		},
+		{
+			"path" : "vendor/webgpu/CMakeLists.txt"
+		},
+		{
+			"path" : "vendor/webgpu/webgpu.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/webgpu-backend-dawn-src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/webgpu-backend-dawn-src/cmake/FetchDawn.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/external/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/opt/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/reduce/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/fuzz/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/link/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/lint/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source/diff/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/tools/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/tools/emacs/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/diff/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/diff/diff_files/diff_test_files_autogen.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/link/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/lint/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/opt/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/opt/dominator_tree/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/opt/loop_optimizations/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/reduce/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/fuzz/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/tools/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/tools/opt/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/tools/objdump/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/util/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/val/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/test/fuzzers/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/examples/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/examples/cpp-interface/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/CMake/AbseilDll.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/CMake/AbseilHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/copts/AbseilConfigureCopts.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/copts/GENERATED_AbseilCopts.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/CMake/AbseilDll.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/base/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/algorithm/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/cleanup/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/container/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/debugging/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/functional/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/hash/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/memory/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/meta/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/numeric/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/profiling/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/random/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/status/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/strings/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/synchronization/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/time/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/types/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/abseil-cpp/absl/utility/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/vulkan-deps/vulkan-headers/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/tint/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn_proc_table.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp_print.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp_chained_struct.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn_proc.c"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn_thread_dispatch_proc.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_cpp.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/api_struct_info.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/library_api_enum_tables.js"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/common/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/.git/HEAD"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/.git/refs/heads/main"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/common/Version.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_version_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/gpu_info.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/common/GPUInfo.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/common/GPUInfo.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_gpu_info_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/platform/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/native/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ValidationUtils.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ValidationUtils.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/dawn_platform.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_structs.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_structs.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ProcTable.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ChainUtils.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ChainUtils.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_absl_format.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_absl_format.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_StreamImpl.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ObjectType.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/ObjectType.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/native/api_dawn_native_proc.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/wire/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/dawn_wire.json"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/ObjectType.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/WireCmd.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/WireCmd.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/client/ApiObjects.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/client/ApiProcs.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/client/ClientBase.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/client/ClientHandlers.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/client/ClientPrototypes.inc"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/server/ServerBase.h"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/server/ServerDoers.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/server/ServerHandlers.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/templates/dawn/wire/server/ServerPrototypes.inc"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/optimizer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/tests.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/utils.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/_native.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/exceptions.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/generator_lib.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/parser.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/bccache.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/visitor.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_compat.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/_identifier.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/filters.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/lexer.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/loaders.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/nodes.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/defaults.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/generator/dawn_json_generator.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/runtime.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/idtracking.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/markupsafe/__init__.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/environment.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/third_party/jinja2/compiler.py"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/utils/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/glfw/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/_deps/dawn-src/src/dawn/tests/benchmarks/CMakeLists.txt"
+		},
+		{
+			"path" : "vendor/glfw3webgpu/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build",
+		"source" : "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
