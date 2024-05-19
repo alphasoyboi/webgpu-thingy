@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5...3.25)
+cmake_minimum_required(VERSION 3.0...3.25)
 project(webgpu-thingy VERSION 0.1.0 LANGUAGES C CXX)
 
 include(CTest)
@@ -23,8 +23,8 @@ if(XCODE)
 endif()
 
 add_subdirectory(vendor/glfw)
-#set(WEBGPU_BACKEND "WGPU")
-set(WEBGPU_BACKEND "DAWN")
+set(WEBGPU_BACKEND "WGPU")
+#set(WEBGPU_BACKEND "DAWN")
 add_subdirectory(vendor/webgpu)
 add_subdirectory(vendor/glfw3webgpu)
 target_link_libraries(${PROJECT_NAME} PRIVATE glfw webgpu glfw3webgpu)

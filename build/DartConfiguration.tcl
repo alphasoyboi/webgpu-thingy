@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/tomsmale/Source/Repos/webgpu-thingy-cxx
-BuildDirectory: /Users/tomsmale/Source/Repos/webgpu-thingy-cxx/build
+SourceDirectory: /Users/tomsmale/Source/Repos/webgpu-thingy
+BuildDirectory: /Users/tomsmale/Source/Repos/webgpu-thingy/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.27.8/bin/cmake" "/Users/tomsmale/Source/Repos/webgpu-thingy-cxx"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.27.8/bin/cmake" "/Users/tomsmale/Source/Repos/webgpu-thingy"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
