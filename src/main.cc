@@ -18,8 +18,9 @@ struct VertexOutput {
 
 @vertex
 fn vs_main(in: VertexInput) -> VertexOutput {
+    let ratio = 640.0 / 480.0;
     var out: VertexOutput;
-    out.position = vec4f(in.position, 0.0, 1.0);
+    out.position = vec4f(in.position.x, in.position.y*ratio, 0.0, 1.0);
     out.color = in.color; // forward to the fragment shader
     return out;
 }
@@ -125,22 +126,6 @@ int main (int, char**) {
   wgpu::ShaderModule shaderModule = device.createShaderModule(shaderDesc);
   std::cout << "Shader module: " << shaderModule << std::endl;
 
-  std::vector<float> vertexData = {
-      // x0,  y0,  r0,  g0,  b0
-      -0.5, -0.5, 1.0, 0.0, 0.0,
-
-      // x1,  y1,  r1,  g1,  b1
-      +0.5, -0.5, 0.0, 1.0, 0.0,
-
-      // ...
-      +0.0,   +0.5, 0.0, 0.0, 1.0,
-      -0.55f, -0.5, 1.0, 1.0, 0.0,
-      -0.05f, +0.5, 1.0, 0.0, 1.0,
-      -0.55f, +0.5, 0.0, 1.0, 1.0
-  };
-  // We now divide the vector size by 5 fields.
-  int vertexCount = static_cast<int>(vertexData.size() / 5);
-
   // Pipeline
   wgpu::RenderPipelineDescriptor pipelineDesc = wgpu::Default;
   // Vertex Position Attribute
@@ -208,15 +193,40 @@ int main (int, char**) {
   wgpu::RenderPipeline pipeline = device.createRenderPipeline(pipelineDesc);
   std::cout << "Render pipeline: " << pipeline << std::endl;
 
-  // Vertex Buffer
+  // Vertex buffer
+  // The de-duplicated list of point positions
+  std::vector<float> pointData = {
+      // x,   y,     r,   g,   b
+      -0.5, -0.5,   1.0, 0.0, 0.0,
+      +0.5, -0.5,   0.0, 0.0, 1.0,
+      +0.5, +0.5,   0.0, 1.0, 0.0,
+      -0.5, +0.5,   1.0, 1.0, 0.0
+  };
+
+  // Create vertex buffer
   wgpu::BufferDescriptor bufferDesc;
-  bufferDesc.size = vertexData.size() * sizeof(float);
+  bufferDesc.size = pointData.size() * sizeof(float);
   bufferDesc.usage = wgpu::BufferUsage::CopyDst | wgpu::BufferUsage::Vertex;
   bufferDesc.mappedAtCreation = false;
   wgpu::Buffer vertexBuffer = device.createBuffer(bufferDesc);
+  queue.writeBuffer(vertexBuffer, 0, pointData.data(), bufferDesc.size);
 
-  // Upload geometry data to the buffer
-  queue.writeBuffer(vertexBuffer, 0, vertexData.data(), bufferDesc.size);
+  // Index Buffer
+  // This is a list of indices referencing positions in the pointData
+  std::vector<uint16_t> indexData = {
+      0, 1, 2, // Triangle #0
+      0, 2, 3  // Triangle #1
+  };
+
+  int indexCount = static_cast<int>(indexData.size());
+
+  // Create index buffer
+  // (we reuse the bufferDesc initialized for the vertexBuffer)
+  bufferDesc.size = indexData.size() * sizeof(uint16_t);
+  bufferDesc.usage = wgpu::BufferUsage::CopyDst | wgpu::BufferUsage::Index;
+  bufferDesc.mappedAtCreation = false;
+  wgpu::Buffer indexBuffer = device.createBuffer(bufferDesc);
+  queue.writeBuffer(indexBuffer, 0, indexData.data(), bufferDesc.size);
 
   while (!glfwWindowShouldClose(window)) {
     // Get the next texture and give it to the render pass
@@ -250,9 +260,11 @@ int main (int, char**) {
     // Select which render pipeline to use
     renderPass.setPipeline(pipeline);
     // Set vertex buffers while encoding the render pass
-    renderPass.setVertexBuffer(0, vertexBuffer, 0, vertexData.size() * sizeof(float));
-    // Draw 1 instance of a 3-vertices shape
-    renderPass.draw(vertexCount, 1, 0, 0);
+    renderPass.setVertexBuffer(0, vertexBuffer, 0, pointData.size() * sizeof(float));
+    renderPass.setIndexBuffer(indexBuffer, wgpu::IndexFormat::Uint16, 0, indexData.size() * sizeof(uint16_t));
+    // Replace `draw()` with `drawIndexed()` and `vertexCount` with `indexCount`
+    // The extra argument is an offset within the index buffer.
+    renderPass.drawIndexed(indexCount, 1, 0, 0, 0);
     renderPass.end();
     renderPass.release();
     nextTexture.release();
@@ -281,7 +293,9 @@ int main (int, char**) {
 
   // Cleanup WebGPU resources
   vertexBuffer.destroy();
+  indexBuffer.destroy();
   vertexBuffer.release();
+  indexBuffer.release();
   pipeline.release();
   shaderModule.release();
   swapChain.release();
