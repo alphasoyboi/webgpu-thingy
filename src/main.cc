@@ -4,31 +4,8 @@
 #include <webgpu/webgpu.hpp>
 #include <glfw3webgpu.h>
 #include <GLFW/glfw3.h>
-
-const char* shaderSource = R"(
-struct VertexInput {
-    @location(0) position: vec2f,
-    @location(1) color: vec3f,
-};
-
-struct VertexOutput {
-    @builtin(position) position: vec4f,
-    @location(0) color: vec3f,
-};
-
-@vertex
-fn vs_main(in: VertexInput) -> VertexOutput {
-    let ratio = 640.0 / 480.0;
-    var out: VertexOutput;
-    out.position = vec4f(in.position.x, in.position.y*ratio, 0.0, 1.0);
-    out.color = in.color; // forward to the fragment shader
-    return out;
-}
-
-@fragment
-fn fs_main(in: VertexOutput) -> @location(0) vec4f {
-    return vec4f(in.color, 1.0);
-})";
+#include "utils.h"
+#include "magic_enum.hpp"
 
 int main (int, char**) {
   // Window
@@ -68,7 +45,7 @@ int main (int, char**) {
   wgpu::RequiredLimits requiredLimits = wgpu::Default;
   requiredLimits.limits.maxVertexAttributes = 2;
   requiredLimits.limits.maxVertexBuffers = 1;
-  requiredLimits.limits.maxBufferSize = 6 * 5 * sizeof(float);
+  requiredLimits.limits.maxBufferSize = 15 * 5 * sizeof(float);
   requiredLimits.limits.maxVertexBufferArrayStride = 5 * sizeof(float);
   requiredLimits.limits.minStorageBufferOffsetAlignment = supportedLimits.limits.minStorageBufferOffsetAlignment; // This must be set even if we do not use storage buffers for now
   requiredLimits.limits.minUniformBufferOffsetAlignment = supportedLimits.limits.minUniformBufferOffsetAlignment; // This must be set even if we do not use uniform buffers for now
@@ -110,20 +87,11 @@ int main (int, char**) {
   swapChainDesc.presentMode = wgpu::PresentMode::Fifo;
   wgpu::SwapChain swapChain = device.createSwapChain(surface, swapChainDesc);
   std::cout << "Swapchain: " << swapChain << std::endl;
+  std::cout << "Swapchain format: " << magic_enum::enum_name<WGPUTextureFormat>(swapChainFormat) << std::endl;
 
   // Shader module
-  wgpu::ShaderModuleWGSLDescriptor shaderCodeDesc = wgpu::Default;
-  // Set the chained struct's header
-  shaderCodeDesc.chain.next = nullptr;
-  shaderCodeDesc.chain.sType = wgpu::SType::ShaderModuleWGSLDescriptor;
-  shaderCodeDesc.code = shaderSource;
-  wgpu::ShaderModuleDescriptor shaderDesc = wgpu::Default;
-#ifdef WEBGPU_BACKEND_WGPU
-  shaderDesc.hintCount = 0;
-  shaderDesc.hints = nullptr;
-#endif
-  shaderDesc.nextInChain = &shaderCodeDesc.chain;
-  wgpu::ShaderModule shaderModule = device.createShaderModule(shaderDesc);
+  std::cout << "Creating shader module..." << std::endl;
+  wgpu::ShaderModule shaderModule = loadShaderModule(RESOURCE_DIR "/shader.wgsl", device);
   std::cout << "Shader module: " << shaderModule << std::endl;
 
   // Pipeline
@@ -193,15 +161,14 @@ int main (int, char**) {
   wgpu::RenderPipeline pipeline = device.createRenderPipeline(pipelineDesc);
   std::cout << "Render pipeline: " << pipeline << std::endl;
 
-  // Vertex buffer
-  // The de-duplicated list of point positions
-  std::vector<float> pointData = {
-      // x,   y,     r,   g,   b
-      -0.5, -0.5,   1.0, 0.0, 0.0,
-      +0.5, -0.5,   0.0, 0.0, 1.0,
-      +0.5, +0.5,   0.0, 1.0, 0.0,
-      -0.5, +0.5,   1.0, 1.0, 0.0
-  };
+  std::vector<float> pointData;
+  std::vector<uint16_t> indexData;
+
+  bool success = loadGeometry(RESOURCE_DIR "/webgpu.txt", pointData, indexData);
+  if (!success) {
+    std::cerr << "Could not load geometry!" << std::endl;
+    return 1;
+  }
 
   // Create vertex buffer
   wgpu::BufferDescriptor bufferDesc;
@@ -211,18 +178,12 @@ int main (int, char**) {
   wgpu::Buffer vertexBuffer = device.createBuffer(bufferDesc);
   queue.writeBuffer(vertexBuffer, 0, pointData.data(), bufferDesc.size);
 
-  // Index Buffer
-  // This is a list of indices referencing positions in the pointData
-  std::vector<uint16_t> indexData = {
-      0, 1, 2, // Triangle #0
-      0, 2, 3  // Triangle #1
-  };
-
+  // Index Buffer alignment
   int indexCount = static_cast<int>(indexData.size());
 
   // Create index buffer
   // (we reuse the bufferDesc initialized for the vertexBuffer)
-  bufferDesc.size = indexData.size() * sizeof(uint16_t);
+  bufferDesc.size = indexData.size() * sizeof(float);
   bufferDesc.usage = wgpu::BufferUsage::CopyDst | wgpu::BufferUsage::Index;
   bufferDesc.mappedAtCreation = false;
   wgpu::Buffer indexBuffer = device.createBuffer(bufferDesc);
